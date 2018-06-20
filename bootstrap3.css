@@ -1,0 +1,26 @@
+h1
+{
+color:darksalmon;
+    text-shadow: 3px 2px aqua;
+        text-align: center;
+border: 10px solid transparent;
+padding:15px;
+}
+
+
+
+h3{
+padding: 20px;
+width:300px;
+height:100px;
+background-position:center;
+text-decoration: overline underline #43c3b7;
+}div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width :420px;
+
+}
+
+

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Bootstrap</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="bootstrap3.css" rel="stylesheet">
+
+
+
+<style>
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    
+    <div class="navbar-header" style="margin-left:100px;">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <img src ="images (1).png" width="50px" height="50px">
+        <li style="margin-left:9px;"><a id="home" class="section" href="#homesection">MY FAVOURITE RECIPIES <span class="sr-only">(current)</span></a></li>
+        <li><a id="about" class="section" href="#test">HOME</a></li>
+         <li><a id="contact" class="section" href="#test1">PIZZA</a></li>
+
+
+          
+         <li><a href="#test2">BURGER</a></li>
+         <li><a href="#test3">CHICKEN </a></li>
+        
+      </ul>
+      
+      
+      <ul class="nav navbar-nav navbar-right" style="margin-right:50px;">
+        <li><a href="#test4">About me<span class="glyphicon glyphicon-search"></span></a></li>
+        <li><a href="#test5">Contact me<span class="glyphicon glyphicon-envelope"></span></a></li>
+      
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="test"></div>
+
+     <header id="myCarousel" class="carousel slide">
+        
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        
+        <div class="carousel-inner">
+            <div class="item active">
+                
+                <div class="fill" style="background-image:url('1.jpg');"></div>
+                <div class="carousel-caption">
+                    <font color="darkblue">
+                    <h2>A recipe has no soul.<br> You, as a cook, must <i>bring soul</i> to the recipe</h2>
+                    </font>
+                </div>
+            </div>
+            <div class="item">
+                
+                <div class="fill" style="background-image:url('1 (1).jpg');"></div>
+                <div class="carousel-caption">
+                    <font color="darkblue">
+                    <h2>Cookery is not chemistry. It is an art. It requires instinct and taste rather than exact measurement.</h2>
+                    </font>
+                </div>
+            </div>
+            <div class="item">
+                
+                <div class="fill" style="background-image:url('1 (2).jpg');"></div>
+                <div class="carousel-caption">
+                    <font color="darkblue">
+                    <h2><b>GOOD FOOD <br> <font color="yellow">IS</font> <br>GOOD MOOD</b></h2>
+                    </font>
+                </div>
+            </div>
+        </div>
+
+        
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+
+   
+             <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+ <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <script>
+  $('.carousel').carousel({
+        interval: 500 
+    })
+ </script>
+    
+    <div class="container">
+        <div id="test1">
+      <div class="row">
+        <div class="col-md-12 text-center">
+            <font align="center">
+            </font>
+           
+                 <h1 class="mt-5">PIZZA</h1>
+            </div>
+        </div>
+      </div>
+    </div>
+   <div class="gallery">
+  <a target="_blank" href="fjords.jpg">
+    <img src="images (9).jpg"  width="420" height="200">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="forest.jpg">
+    <img src="download (2).jpg"  width="420" height="200">
+  </a>
+  
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="lights.jpg">
+    <img src="download (3).jpg"  width="420" height="200">
+  </a>
+  
+</div>
+        
+    <div class="container">
+</div>
+<div class container="fluid">
+<div class="row justify-content-center">
+<div class="col-sm-6">
+<img src="download.jpg" class="img-thumbnail" width="500px" height="500px">
+
+</div>
+    <div class="col-sm-6" >
+        <font color="darksalmon">
+            <h2 class="well">Ingredients</h2>
+        </font>
+        <font color="olive">
+   <ul style="list-style-type:circle">
+       <li>  1 1/2 cups (355 ml) warm water (105°F-115°F)</li>
+       <li>1 package (2 1/4 teaspoons) of active dry yeast</li>
+       <li> 3/4 cups (490 g) bread flour</li>
+       <li>2 Tbsp olive oil (omit if cooking pizza in a wood-fired pizza oven)</li>
+       <li>2 teaspoons salt</li>
+       <li>1 teaspoon sugar</li>
+        </ul>
+        </font>
+</div>
+    </div>
+</div>
+      <h3> Steps to make pizza</h3>
+<ol type="1"><font color =" darkblue">
+<li>Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.</li>
+<li>Make the sauce: Mix the passata, basil and crushed garlic together, then season to taste. Leave to stand at room temperature while you get on with shaping the base.</li>
+<li>Roll out the dough: If you’ve let the dough rise, give it a quick knead, then split into two balls. On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets.</li>
+<li>Top and bake: Heat oven to 240C/fan 220C /gas 8. Put another baking sheet or an upturned baking tray in the oven on the top shelf. Smooth sauce over bases with the back of a spoon. Scatter with cheese and tomatoes, drizzle with olive oil and season. Put one pizza, still on its baking sheet, on top of the preheated sheet or tray. Bake for 8-10 mins until crisp. Serve with a little more olive oil, and basil leaves if using. Repeat step for remaining pizza.</li>
+<li>Enjoy</li>
+</font>
+</ol>
+        <div class="container">
+        <div id="test2">
+      <div class="row">
+        <div class="col-md-12 text-center">
+            <font align="center">
+            </font>
+           
+                 <h1 class="mt-5">BURGER</h1>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+  <a target="_blank" href="fjords.jpg">
+    <img src="images (11).jpg"  width="420" height="200">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="forest.jpg">
+    <img src="download (5).jpg"  width="420" height="200">
+  </a>
+  
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="lights.jpg">
+    <img src="download (4).jpg"  width="420" height="200">
+  </a>
+  
+</div>
+      <div class="container">
+</div>
+<div class container="fluid">
+<div class="row justify-content-center">
+<div class="col-sm-6">
+<img src="download (1).jpg" class="img-thumbnail" width="500px" height="500px">
+</div>
+    <div class="col-sm-6" >
+        <font color="darksalmon">
+        <h2 class="well">Ingredients</h2>
+        </font>
+        <font color="olive">
+   <ul style="list-style-type:circle">
+       <li>1 tablespoon Worcestershire</li>
+       <li>1 or 2 cloves garlicpeeled and minced
+       <li>About 1/2 teaspoon salt</li> 
+       <li>About 1/4 teaspoon pepper</li>
+       <li>4 hamburger buns (4 in. wide)</li>
+       <li> About 1/4 cup mayonnaise</li>
+       <li>About 1/4 cup ketchup</li>
+       <li>4 iceberg lettuce leaves</li>
+       <li>rinsed and crisped 1 firm-ripe tomato, cored and thinly sliced 4 thin slices red onion</li>
+        </ul>
+        </font>
+    </div>
+    </div>
+    </div>
+    <h3> Steps to make burger</h3>
+<ol type="1"><font color="darkblue">
+<li>Dump your ground meat into a bowl. (We go for ground meat with around 20% fat.) Season it with salt, pepper, and whatever else you want; you can add spices, perhaps, or Worcestershire sauce, or shallots, or chiles.</li>
+<li>Shape your burgers into patties, using your thumb to make an indentation in the center; this will keep the burgers from puffing up. Keep in mind that the burgers will shrink up a bit once you cook them, so make your patties a bit bigger than you want them later.</li>
+<li>Oil your grill or a cast-iron pan, and grill or sear those patties. (How many times to flip them is up for debate -- but when I'm grilling, I flip once so I can get get those nice grill marks.) Cook them until your desired doneness (around 125-130ºF for medium rare, around 1 minute per side for each inch of thickness). But before you take them off the grill...</li>
+<li>add your cheese and toast your buns. Let the cheese melt while the burgers are still on the grill; to speed things up, you can close the cover.</li>
+<li>Once your burgers iare finished cooking, and your cheese is melty and your buns are nicely charred, throw some condiments and toppings on those burgers. Anything goes. (Really, anything goes.) Bite into it and let those juices run down your chin, and rejoice that it's summer. And then make another round, because now you know how.</li>
+<li>Enjoy</li>
+</font>
+</ol>
+    
+
+
+
+
+        <div class="container">
+        <div id="test3">
+      <div class="row">
+        <div class="col-md-12 text-center">
+            <font align="center">
+            </font>
+           
+            <h1 class="mt-5">CHICKEN</h1>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+  <a target="_blank" href="fjords.jpg">
+    <img src="images (4).jpg"  width="420" height="200">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="forest.jpg">
+    <img src="images (5).jpg"  width="420" height="200">
+  </a>
+  
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="lights.jpg">
+    <img src="images (6).jpg"  width="420" height="200">
+  </a>
+  
+</div>
+<br>
+    <br>
+<div class="container">
+</div>
+<div class container="fluid">
+<div class="row justify-content-center">
+<div class="col-sm-6">
+<img src="images (12).jpg " class="img-thumbnail" height="500px" width="500px">
+</div>
+    <div class="col-sm-6" >
+        <font color="darksalmon">
+        <h2 class="well">Ingredients</h2>
+        </font>
+        <font color="olive">
+   <ul style="list-style-type:circle"> 
+       <li> kilograms washed & dried chicken</li>
+       <li>3cups sliced onions</li>
+       <li> 2 cups tomato</li>
+       <li>refind</li>
+       <li>turmeric</li>
+       <li>coorinder</li>
+        </ul>
+        </font>
+    </div>
+    </div>
+    </div>
+    <h3>Steps to make chicken</h3>
+<ol type="1"><font color="darkblue">
+<li>Place the chicken legs in a large zip-top bag</li>
+<li>Make the marinade. Mix together the olive oil, salt, pepper, paprika, cumin, and cayenne pepper. Place the ingredients in a small bowl and stir them until they're thoroughly incorporated.</li>
+<li>Pour the marinade over the chicken legs. Pour the marinade into the zip-top bag with the chicken and seal it. Remove as much air as possible from the bag and seal it. Turn it from side to side to ensure that all of the chicken is coated in the marinade. Then, place the bag on a sheet pan and refrigerate it for an hour or even overnight for best results. Turn the bag every few hours to keep the chicken freshly coated.</li>
+<li>Prepare the grill. Brush the grill grate with olive oil to coat it. Then, heat the grill to 350ºF (175ºC).</li>
+<li>Place the chicken on the grill. Cook the chicken until it's crispy and brown on both sides. Turn the chicken every few minutes to evenly cook both sides.</li>
+<li>Enjoy</li>
+</font>
+    </ol>
+    <div id="test4">
+    </div> 
+    <div class="container">
+        <div id="test2">
+      <div class="row">
+        <div class="col-md-12 text-center">
+            <h2><font align="center"><i><b>About Me</b></i></font></h2>
+          </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+      <div class="row">
+        <div class="col-md-12 text-center">
+    <img src="ananya.jpg" height="200px" width="200px" align="middle" class="img-circle">
+         
+          </div>
+            </div>
+        </div>
+     <div class="container">
+        
+      <div class="row">
+        <div class="col-md-12 text-center">
+            <font color="darkblue">
+    <font size="15">Ananya Mahajan</font>  <img src ="images (1).png" width="50px" height="50px">
+            </font>
+          </div>
+        
+         </div>
+    </div>
+    <div id="test5">
+    </div>
+    <h3><i><b>Contact Me-</b></i>mahajan.ananya2710@gmail.com</h3>
+    
+</body>
+</html>
